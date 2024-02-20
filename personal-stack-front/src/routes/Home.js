@@ -7,10 +7,17 @@ const AppContainer = styled.div`
     background-image: linear-gradient(90deg, #002F52 35%, #326589);
 `
 
+const H1White = styled.div`
+    font-family: Roboto;
+    margin: 0;
+    font-size: 48px;
+    color: white;
+`
+
 function Home() {
   return (
     <AppContainer>
-      <p>THIS IS HOME ROUTE PAGE</p>
+      <H1White>THIS IS HOME ROUTE PAGE</H1White>
     </AppContainer>
   );
 }

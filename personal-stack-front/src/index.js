@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { createGlobalStyle } from 'styled-components';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-import { Home } from "../routes/Home"
+import Home from "./routes/Home"
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -35,7 +35,7 @@ root.render(
     <GlobalStyle />  
 
     <BrowserRouter>
-      
+
       <Routes>
       <Route path="/" element={<Home />} />
       </Routes>
