@@ -7,13 +7,29 @@ import { createGlobalStyle } from 'styled-components';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import Home from "./routes/Home"
+import Header from "./components/Header"
+
+import './visual/fonts/ttf/JetBrainsMono-Regular.ttf'
+import './visual/fonts/ttf/JetBrainsMono-Bold.ttf'
+import './visual/fonts/ttf/JetBrainsMono-Light.ttf'
+import './visual/fonts/ttf/JetBrainsMono-Italic.ttf'
+import './visual/fonts/ttf/JetBrainsMono-ExtraBold.ttf'
+
 
 const GlobalStyle = createGlobalStyle`
+  @font-face {
+    font-family: "JetBrainsMono";
+    src: local("JetBrainsMono-Regular"),
+    url("./visual/fonts/ttf/JetBrainsMono-Regular.ttf") format("truetype") font-weght-normal,
+    url("./visual/fonts/ttf/JetBrainsMono-Bold.ttf") format("truetype") font-weght-bold,
+    url("./visual/fonts/ttf/JetBrainsMono-Light.ttf") format("truetype") font-weght-thin,
+    url("./visual/fonts/ttf/JetBrainsMono-Italic.ttf") format("truetype") font-italic,
+    url("./visual/fonts/ttf/JetBrainsMono-ExtraBold.ttf") format("truetype") font-weght-extrabold;
+  }
+
   body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
+    font-family: 'JetBrainsMono';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -35,9 +51,10 @@ root.render(
     <GlobalStyle />  
 
     <BrowserRouter>
+      <Header />
 
       <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/Home" element={<Home />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
