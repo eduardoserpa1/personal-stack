@@ -1,10 +1,10 @@
 import styled from 'styled-components'
+import Logo from './Logo'
 
 const HeaderContainer = styled.div`
-    background-color: #f1f1f1;
     width: 100vw;
     height: 64px;
-    border-bottom: solid 1px #a0a0a0;
+    border-bottom: solid 1px #f1f1f1;
 
     display: flex
 `
@@ -13,7 +13,7 @@ const HeaderContainer = styled.div`
 function Header(){
     return (
         <HeaderContainer>
-            
+            <Logo />
         </HeaderContainer>
     )
 }
