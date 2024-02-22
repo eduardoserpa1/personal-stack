@@ -23,7 +23,6 @@ const Account = styled.span`
     text-shadow: 1px 1px #e1e1e1;
 `
 
-
 function Session(){
     return (
       <SessionContainer>

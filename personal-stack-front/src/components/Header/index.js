@@ -3,6 +3,7 @@ import Logo from './Logo'
 import Menu from './Menu'
 import Session from './Session'
 import SessionDropdown from './SessionDropdown'
+import { useEffect, useState } from 'react'
 
 const HeaderContainer = styled.div`
     width: 100vw;
@@ -12,14 +13,20 @@ const HeaderContainer = styled.div`
     display: flex
 `
 
+const Button = styled.div`
+
+`
+
 
 function Header(){
+    const [isActive, setActive] = useState(false)
+
     return (
         <HeaderContainer>
             <Logo />
             <Menu />
-            <Session />
-            <SessionDropdown />
+            <Button onClick={ () => {setActive(!isActive)}  } ><Session /></Button>
+            <SessionDropdown  displayVisibility={isActive ? "flex" : "none"}/>  
         </HeaderContainer>
     )
 }

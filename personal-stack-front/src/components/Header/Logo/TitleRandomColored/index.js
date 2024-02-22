@@ -8,7 +8,7 @@ const TitleContainer = styled.div`
 const ColoredText = styled.span`
     font-size: 20px;
     font-weight: bold;
-    color: ${props => props.textColor || 'red'};
+    color: ${props => props.textColor || 'black'};
     text-shadow: 1px 1px 2px #d0d0d0;
 `
 

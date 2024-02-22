@@ -12,7 +12,7 @@ const SessionDropdownContainer = styled.div`
     background-color: wheat;
     border: solid 1px #f1f1f1;
 
-    display: flex;
+    display: ${props => props.displayVisibility};
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -20,9 +20,9 @@ const SessionDropdownContainer = styled.div`
     text-align: center;
 `
 
-function SessionDropdown(){
+function SessionDropdown({displayVisibility}){
     return(
-        <SessionDropdownContainer>
+        <SessionDropdownContainer displayVisibility={displayVisibility}>
             <p>Modulo ainda não implementado.</p>
         </SessionDropdownContainer>
     )
