@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import Logo from './Logo'
 import Menu from './Menu'
+import Session from './Session'
 
 const HeaderContainer = styled.div`
     width: 100vw;
@@ -16,6 +17,7 @@ function Header(){
         <HeaderContainer>
             <Logo />
             <Menu />
+            <Session />
         </HeaderContainer>
     )
 }
