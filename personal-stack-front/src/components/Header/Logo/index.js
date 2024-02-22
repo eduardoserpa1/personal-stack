@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import TitleRandomColored from './TitleRandomColored'
 
 const LogoContainer = styled.div`
-    background-color: white;
+    background-color: #f9f9f9;
     
     width: 200px;
     height: 64px;
@@ -16,8 +16,9 @@ const LogoContainer = styled.div`
     align-self: left;
     
     &:hover{
-        background-color: #fefefe;
+        background-color: #eaeaea;
         cursor: pointer;
+        
     }
 `
 

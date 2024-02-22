@@ -25,7 +25,6 @@ const MenuItem = styled.span`
     &:hover{
         background-color: #eaeaea;
         cursor: pointer;
-
     }
 `
 

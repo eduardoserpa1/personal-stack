@@ -12,17 +12,15 @@ const SessionContainer = styled.div`
     justify-content: center;
     align-items: center;
 
-    text-shadow: 1px 1px #e1e1e1;
-
     &:hover{
-        background-color: #f1f1f1;
+        background-color: #eaeaea;
         cursor: pointer;
+        
     }
 `
 const Account = styled.span`
     font-size 20px;
-
-    
+    text-shadow: 1px 1px #e1e1e1;
 `
 
 

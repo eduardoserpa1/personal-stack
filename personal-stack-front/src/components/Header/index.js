@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import Logo from './Logo'
 import Menu from './Menu'
 import Session from './Session'
+import SessionDropdown from './SessionDropdown'
 
 const HeaderContainer = styled.div`
     width: 100vw;
@@ -18,6 +19,7 @@ function Header(){
             <Logo />
             <Menu />
             <Session />
+            <SessionDropdown />
         </HeaderContainer>
     )
 }
