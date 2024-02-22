@@ -12,9 +12,11 @@ const LogoContainer = styled.div`
     flex-align: center;
     justify-content: center;
     align-items: center;
+
+    align-self: left;
     
     &:hover{
-        background-color: #f8f8f8;
+        background-color: #fefefe;
         cursor: pointer;
     }
 `
