@@ -12,13 +12,15 @@ const HeaderContainer = styled.div`
     border-bottom: solid 1px #f1f1f1;
 
     display: flex
-    
-    
-}
 `
 
 const Button = styled.div`
 
+`
+
+const StyledLink = styled(Link)`
+    text-decoration: none;
+    color: black;
 `
 
 
@@ -28,9 +30,9 @@ function Header(){
     return (
         <HeaderContainer>
             
-            <Link to={"/Home"} style={{ textDecoration: 'none' }} ><Logo /></Link>
+            <StyledLink to={"/Home"} style={{ textDecoration: 'none' }} ><Logo /></StyledLink>
             <Menu />
-            <Button onClick={ () => {setActive(!isActive)}   } component={Link} to={'/Account'} > <Session /> </Button>
+            <Button onClick={ () => {setActive(!isActive)}   }  ><StyledLink to={"/Account"}> <Session /> </StyledLink></Button>
             <SessionDropdown  displayVisibility={isActive ? "flex" : "none"}/>  
         </HeaderContainer>
     )

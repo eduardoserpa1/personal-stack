@@ -25,7 +25,7 @@ const MenuItem = styled.span`
     justify-content: center;
     align-items: center;
 
-    text-shadow: 1px 1px #e1e1e1;
+    text-shadow: 1px 1px 1px #e1e1e1;
 
     color:black;
     

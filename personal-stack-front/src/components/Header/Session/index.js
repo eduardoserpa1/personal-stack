@@ -26,7 +26,7 @@ const Account = styled.span`
 function Session(){
     return (
       <SessionContainer>
-            <Account>login</Account>
+            <Account>account</Account>
       </SessionContainer>
     )
 }
