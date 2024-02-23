@@ -7,6 +7,9 @@ import { createGlobalStyle } from 'styled-components';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import Home from "./routes/Home"
+import Author from "./routes/Author"
+import Projects from "./routes/Projects"
+import Account from "./routes/Account"
 import Header from "./components/Header"
 
 import './visual/fonts/ttf/JetBrainsMono-Regular.ttf'
@@ -55,6 +58,9 @@ root.render(
 
       <Routes>
       <Route path="/Home" element={<Home />} />
+      <Route path="/Author" element={<Author />} />
+      <Route path="/Projects" element={<Projects />} />
+      <Route path="/Account" element={<Account />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

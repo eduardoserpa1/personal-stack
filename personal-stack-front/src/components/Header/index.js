@@ -3,7 +3,8 @@ import Logo from './Logo'
 import Menu from './Menu'
 import Session from './Session'
 import SessionDropdown from './SessionDropdown'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const HeaderContainer = styled.div`
     width: 100vw;
@@ -11,6 +12,9 @@ const HeaderContainer = styled.div`
     border-bottom: solid 1px #f1f1f1;
 
     display: flex
+    
+    
+}
 `
 
 const Button = styled.div`
@@ -23,9 +27,10 @@ function Header(){
 
     return (
         <HeaderContainer>
-            <Logo />
+            
+            <Link to={"/Home"} style={{ textDecoration: 'none' }} ><Logo /></Link>
             <Menu />
-            <Button onClick={ () => {setActive(!isActive)}  } ><Session /></Button>
+            <Button onClick={ () => {setActive(!isActive)}   } component={Link} to={'/Account'} > <Session /> </Button>
             <SessionDropdown  displayVisibility={isActive ? "flex" : "none"}/>  
         </HeaderContainer>
     )

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 
@@ -8,6 +9,10 @@ const MenuContainer = styled.div`
 
     display: flex;
     align-self: center;
+
+    a{
+        text-decoration: none;
+    }
 `
 
 const MenuItem = styled.span`
@@ -22,6 +27,9 @@ const MenuItem = styled.span`
 
     text-shadow: 1px 1px #e1e1e1;
 
+    color:black;
+    
+
     &:hover{
         background-color: #eaeaea;
         cursor: pointer;
@@ -30,12 +38,12 @@ const MenuItem = styled.span`
 
 function Menu(){
 
-    const Options = ["home","whoami","projects"]
+    const Options = ["Home","Author","Projects"]
 
     return(
         <MenuContainer>
             {
-                Options.map( (item) => (<MenuItem>{item}</MenuItem>))
+                Options.map( (item) => (<Link to={`/${item}`}><MenuItem >{item.toLowerCase()}</MenuItem></Link>))
             }
         </MenuContainer>
     )
