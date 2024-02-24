@@ -1,7 +1,6 @@
 import styled from "styled-components"
-import TextBlock from "../TextBlock";
 
-const ContentBlockContainer = styled.div`
+const ContentBlock = styled.div`
     width: 80vw;
     height: 80vw;
 
@@ -12,16 +11,8 @@ const ContentBlockContainer = styled.div`
 
 
     background-color: #fafafa;
-
+    box-shadow: 0px 0px 10px #cfcfcf;
 `
 
-function ContentBlock(){
-    return(
-        <ContentBlockContainer>
-            <TextBlock>Essa é uma demonstração de como o componente TextBlock se comporta em um container ContentBlock.</TextBlock>
-            <TextBlock>Podemos escrever todos os tipos de textos aqui que eles irão se ajustar conforme o container de conteúdo que fornecemos.</TextBlock>
-        </ContentBlockContainer>
-    )
-}
 
 export default ContentBlock;

@@ -23,9 +23,9 @@ const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: "JetBrainsMono";
     src: local("JetBrainsMono-Regular"),
-    url("./visual/fonts/ttf/JetBrainsMono-Regular.ttf") format("truetype") font-weght-normal,
-    url("./visual/fonts/ttf/JetBrainsMono-Bold.ttf") format("truetype") font-weght-bold,
-    url("./visual/fonts/ttf/JetBrainsMono-Light.ttf") format("truetype") font-weght-thin,
+    url("./visual/fonts/ttf/JetBrainsMono-Regular.ttf") format("truetype") font-weight-normal,
+    url("./visual/fonts/ttf/JetBrainsMono-Bold.ttf") format("truetype") font-weight-bold,
+    url("./visual/fonts/ttf/JetBrainsMono-Light.ttf") format("truetype") font-weight-thin,
     url("./visual/fonts/ttf/JetBrainsMono-Italic.ttf") format("truetype") font-italic,
     url("./visual/fonts/ttf/JetBrainsMono-ExtraBold.ttf") format("truetype") font-weght-extrabold;
   }

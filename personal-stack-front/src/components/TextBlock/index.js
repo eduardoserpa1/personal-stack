@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const TextBlock = styled.p`
-    width: 30%;
+    width: 90%;
 
     border: solid 1px #cecece;
     border-radius: 8px;
@@ -11,6 +11,7 @@ const TextBlock = styled.p`
     background-color: #f2f2f2;
 
     display: flex;
+    box-shadow: 0px 0px 10px #cfcfcf
 `
 
 

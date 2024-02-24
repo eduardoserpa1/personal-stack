@@ -9,9 +9,10 @@ import { Link } from 'react-router-dom'
 const HeaderContainer = styled.div`
     width: 100vw;
     height: 64px;
+    
     border-bottom: solid 1px #f1f1f1;
-
-    display: flex
+    
+    display: flex;
 `
 
 const Button = styled.div`
@@ -29,7 +30,6 @@ function Header(){
 
     return (
         <HeaderContainer>
-            
             <StyledLink to={"/Home"} style={{ textDecoration: 'none' }} ><Logo /></StyledLink>
             <Menu />
             <Button onClick={ () => {setActive(!isActive)}   }  ><StyledLink to={"/Account"}> <Session /> </StyledLink></Button>
