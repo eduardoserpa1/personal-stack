@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 import ContentBlock from '../components/Core/ContentBlock'
+import CodeBlock from '../components/Core/CodeBlock'
+
 
 import { Title, TextParagraph, TextBlock, SubTitle, LinkPurple, } from '../components/Core/SingleStyledComponents'
 
@@ -24,10 +26,10 @@ function Home() {
         <TextParagraph>O projeto <b>personal-stack</b> é uma aplicação web destinada a exibir projetos pessoais e qualificações.</TextParagraph>
         <TextParagraph>Desenvolvida, documentada e mantida por <LinkPurple to={"../Author"}>José</LinkPurple>, essa plataforma de projetos oferece uma impressão mais prática
         sobre as qualificações profissionais.</TextParagraph>
-        <TextBlock>exemplo de textblock</TextBlock>
+
       </ContentBlock>
     </HomeContainer>
   );
 }
 
-export default Home;
+export default Home
