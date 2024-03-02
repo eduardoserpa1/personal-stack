@@ -14,7 +14,8 @@ const ColoredText = styled.span`
 
 
 function TitleRandomColored(){
-    const logoNames = [ "jers.dev", "eduardo.serpa", "jose.serpa", "personal.stack", "react.dev", "node.dev", "code.head" ];
+    const logoNames = [ "jers.dev", "eduardo.serpa", "cloud.aws", "personal.stack", "react.dev", "java.dev", "code.head" ];
+
     const colorPalette = ["SteelBlue","Tomato","Indigo","Gold","OliveDrab","LightSalmon", "Turquoise", 
                             "MediumSlateBlue", "FireBrick", "ForestGreen", "DarkRed", "DeepSkyBlue",
                             "Brown", "Crimson", "DarkOrange", "Orange"]

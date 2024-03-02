@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import Logo from './Logo'
-import Menu from './Menu'
-import Session from './Session'
-import SessionDropdown from './SessionDropdown'
+import Logo from '../../Core/Logo'
+import Menu from '../../Core/Menu'
+import Session from '../../Core/Session'
+import SessionDropdown from '../../Core/SessionDropdown'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 

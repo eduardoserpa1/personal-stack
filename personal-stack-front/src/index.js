@@ -10,7 +10,7 @@ import Home from "./routes/Home"
 import Author from "./routes/Author"
 import Projects from "./routes/Projects"
 import Account from "./routes/Account"
-import Header from "./components/Header"
+import Header from "./components/Shared/Header"
 
 import './visual/fonts/ttf/JetBrainsMono-Regular.ttf'
 import './visual/fonts/ttf/JetBrainsMono-Bold.ttf'
