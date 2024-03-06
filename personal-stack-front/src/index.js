@@ -42,9 +42,6 @@ const GlobalStyle = createGlobalStyle`
       monospace;
   }
 
-  li {
-    list-style: none;
-  }
 `
 
 
