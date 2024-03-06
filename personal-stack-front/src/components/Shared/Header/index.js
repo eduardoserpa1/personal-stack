@@ -32,8 +32,7 @@ function Header(){
         <HeaderContainer>
             <StyledLink to={"/Home"} style={{ textDecoration: 'none' }} ><Logo /></StyledLink>
             <Menu />
-            <Button onClick={ () => {setActive(!isActive)}   }  ><StyledLink to={"/Account"}> <Session /> </StyledLink></Button>
-            <SessionDropdown  displayVisibility={isActive ? "flex" : "none"}/>  
+            <Button><StyledLink to={"/Account"}> <Session /> </StyledLink></Button>
         </HeaderContainer>
     )
 }
