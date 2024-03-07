@@ -1,0 +1,18 @@
+[
+    {
+        "name": "java",
+        "link": "https://docs.oracle.com/en/java/"
+    },
+    {
+        "name": "react",
+        "link": "https://react.dev/learn"
+    },
+    {
+        "name": "spring",
+        "link": "https://spring.io/projects/spring-framework"
+    },
+    {
+        "name": "javascript",
+        "link": "https://www.w3schools.com/js/"
+    }
+]

@@ -9,7 +9,6 @@ const ContentBlock = styled.div`
     justify-content: flex-start;
     align-items: center;
 
-
     background-color: #fafafa;
     box-shadow: 0px 0px 10px #cfcfcf;
 `
