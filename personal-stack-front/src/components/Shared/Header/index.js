@@ -7,19 +7,21 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const HeaderContainer = styled.div`
-    width: 100vw;
+    width: 100%;
     height: 64px;
     
-    border-bottom: solid 1px #f1f1f1;
+    border-bottom: solid 2px #efefef;
     
     display: flex;
+
+    z-index:1;
+    position:relative;
 `
 
 const StyledLink = styled(Link)`
     text-decoration: none;
     color: black;
 `
-
 
 function Header(){
     const [isActive, setActive] = useState(false)

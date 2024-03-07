@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 const MenuItem = styled.span`
+    background-color: #f9f9f9;
+
     width: 120px;
     height: 100%;
     border-left: solid 1px #f1f1f1;
@@ -14,7 +16,6 @@ const MenuItem = styled.span`
 
     color:black;
     
-
     &:hover{
         background-color: #eaeaea;
         cursor: pointer;

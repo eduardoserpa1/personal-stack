@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 
 const TitleContainer = styled.div`
-    padding-left: 10px;
-    padding-right: 10px;
 `
 
 const ColoredText = styled.span`

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import {MenuItem} from '../MenuItem'
+import MenuItem from '../MenuItem'
 
 const MenuContainer = styled.div`
     width: 100%;
@@ -22,7 +22,7 @@ function Menu(){
     return(
         <MenuContainer>
             {
-                Options.map( (item) => (<Link to={`/${item}`}><MenuItem >{item.toLowerCase()}</MenuItem></Link>))
+                Options.map( (item) => (<Link to={`/${item}`}><MenuItem>{item.toLowerCase()}</MenuItem></Link>))
             }
         </MenuContainer>
     )
