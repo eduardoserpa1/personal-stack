@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-
+import {MenuItem} from '../MenuItem'
 
 const MenuContainer = styled.div`
     width: 100%;
@@ -12,27 +12,6 @@ const MenuContainer = styled.div`
 
     a{
         text-decoration: none;
-    }
-`
-
-const MenuItem = styled.span`
-    width: 120px;
-    height: 100%;
-    border-left: solid 1px #f1f1f1;
-    border-right: solid 1px #f1f1f1;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    text-shadow: 1px 1px 1px #e1e1e1;
-
-    color:black;
-    
-
-    &:hover{
-        background-color: #eaeaea;
-        cursor: pointer;
     }
 `
 

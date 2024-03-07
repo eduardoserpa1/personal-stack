@@ -15,10 +15,6 @@ const HeaderContainer = styled.div`
     display: flex;
 `
 
-const Button = styled.div`
-
-`
-
 const StyledLink = styled(Link)`
     text-decoration: none;
     color: black;
@@ -32,7 +28,7 @@ function Header(){
         <HeaderContainer>
             <StyledLink to={"/Home"} style={{ textDecoration: 'none' }} ><Logo /></StyledLink>
             <Menu />
-            <Button><StyledLink to={"/Account"}> <Session /> </StyledLink></Button>
+            <StyledLink to={"/Account"}> <Session /> </StyledLink>
         </HeaderContainer>
     )
 }
