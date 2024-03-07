@@ -2,11 +2,28 @@ import styled from "styled-components"
 import { Link } from "react-router-dom"
 
 const Title = styled.h1`
+    margin-bottom: 0;
+    
+`
 
+const TitleMedium = styled.h2`
+    margin-bottom: 0;
+    width: 90%;
+`
+
+const TitleMediumBackward = styled.h2`
+    margin-bottom: 0;
+    width: 92%;
+`
+
+const TitleShort = styled.h4`
+    margin-bottom: 0;
+    width: 90%;
 `
 
 const TextParagraph = styled.p`
     width: 90%; 
+    margin-bottom: 0;
 `
 
 const SubTitle = styled.span`
@@ -40,6 +57,9 @@ const TextBlock = styled.p`
 
 export {
         Title,
+        TitleMedium,
+        TitleMediumBackward,
+        TitleShort,
         TextParagraph,
         TextBlock,
         SubTitle,
