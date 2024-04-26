@@ -59,6 +59,7 @@ root.render(
       <Header />
 
       <Routes>
+      <Route path="/" element={<Home />} />
       <Route path="/Home" element={<Home />} />
       <Route path="/Author" element={<Author />} />
       <Route path="/Projects" element={<Projects />} />

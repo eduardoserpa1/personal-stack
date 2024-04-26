@@ -2,21 +2,12 @@ import styled from 'styled-components'
 import ContentBlock from '../components/Core/ContentBlock'
 import UnorderedList from '../components/Core/UnorderedList'
 import ListItem from '../components/Core/ListItem'
+import Container from '../components/Core/Container'
 import { Title, SubTitle, TextBlock, TextParagraph, TitleMedium, TitleMediumBackward, TitleShort, LinkPurple, } from '../components/Core/SingleStyledComponents'
-
-const AuthorContainer = styled.div`
-    width: 100vw;
-    height: 100vh;
-
-    display:flex;
-    justify-content: center;
-    align-itens: center; 
-`
-
 
 function Author() {
   return (
-    <AuthorContainer>
+    <Container>
       <ContentBlock>
         <Title>José Eduardo Rodrigues Serpa</Title>
         <SubTitle>desenvolvedor de software</SubTitle>
@@ -46,7 +37,7 @@ function Author() {
           <ListItem>Aprimorei meus conhecimentos em tópicos de computação avançada, como algoritmos complexos, computação distribuída e inteligência artificial</ListItem>
         </UnorderedList>
 
-        <TitleShort>Monitor Universitário (08/2021 - 01/2021)</TitleShort>
+        <TitleShort>Monitor Universitário (08/2021 - 01/2022)</TitleShort>
         <TitleShort>PUCRS - Porto Alegre, Rio Grande do Sul, Brasil</TitleShort>
         <UnorderedList>
           <ListItem>-Responsável por atender dúvidas pontuais de alunos.</ListItem>
@@ -62,7 +53,7 @@ function Author() {
         <SubTitle>More information in: <LinkPurple to="https://www.linkedin.com/in/jos%C3%A9-eduardo-rodrigues-serpa-66b627198/">https://www.linkedin.com/in/jos%C3%A9-eduardo-rodrigues-serpa-66b627198/.</LinkPurple></SubTitle>
 
       </ContentBlock>
-    </AuthorContainer>
+    </Container>
   );
 }
 
