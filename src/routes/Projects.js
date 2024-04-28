@@ -2,6 +2,8 @@ import styled from 'styled-components'
 import Container from '../components/Core/Container'
 import ContentBlock from '../components/Core/ContentBlock'
 import Card from '../components/Core/Card'
+import { useEffect, useState } from 'react'
+import projects_data from '../data/projects.json'
 
 const ProjectsContentBlock = styled(ContentBlock)`
   flex-direction: row;
@@ -12,19 +14,19 @@ const ProjectsContentBlock = styled(ContentBlock)`
 `
 
 function Projects() {
+  const data = projects_data.data
+  
+
+  console.log(data)
+
   return (
     <Container>
      <ProjectsContentBlock>
-     
-      <Card> teste </Card>
-      <Card> teste </Card>
-      <Card> teste </Card>
-      <Card> teste </Card>
-      <Card> teste </Card>
-      <Card> teste </Card>
-      <Card> teste </Card>
-      <Card> teste </Card>
-
+     {
+      data.length > 0 ? data.map( project => {
+        return <Card title={project.title} desc={project.description} link={project.link}/>
+      } ) : <span>erro ao carregar os dados.</span> 
+     }
      </ProjectsContentBlock>
     </Container>
   );

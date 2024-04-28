@@ -18,6 +18,7 @@ import './visual/fonts/ttf/JetBrainsMono-Light.ttf'
 import './visual/fonts/ttf/JetBrainsMono-Italic.ttf'
 import './visual/fonts/ttf/JetBrainsMono-ExtraBold.ttf'
 
+const RouteGitHubPrefix = "personal-stack"
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
@@ -59,11 +60,12 @@ root.render(
       <Header />
 
       <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/Home" element={<Home />} />
-      <Route path="/Author" element={<Author />} />
-      <Route path="/Projects" element={<Projects />} />
-      <Route path="/Account" element={<Account />} />
+      <Route path={"/"} element={<Home />} />
+      <Route path={"personal-stack/"} element={<Home />} />
+      <Route path={"personal-stack/Home"} element={<Home />} />
+      <Route path={"personal-stack/Author"} element={<Author />} />
+      <Route path={"personal-stack/Projects"} element={<Projects />} />
+      <Route path={"personal-stack/Account"} element={<Account />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

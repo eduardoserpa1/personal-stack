@@ -22,7 +22,7 @@ function Menu(){
     return(
         <MenuContainer>
             {
-                Options.map( (item) => (<Link to={`/${item}`}><MenuItem>{item.toLowerCase()}</MenuItem></Link>))
+                Options.map( (item) => (<Link to={`personal-stack/${item}`}><MenuItem>{item.toLowerCase()}</MenuItem></Link>))
             }
         </MenuContainer>
     )

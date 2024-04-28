@@ -24,13 +24,10 @@ const StyledLink = styled(Link)`
 `
 
 function Header(){
-    const [isActive, setActive] = useState(false)
-
     return (
         <HeaderContainer>
-            <StyledLink to={"/Home"} style={{ textDecoration: 'none' }} ><Logo /></StyledLink>
+            <StyledLink to={"personal-stack/Home"} style={{ textDecoration: 'none' }} ><Logo /></StyledLink>
             <Menu />
-            <StyledLink to={"/Account"}> <Session /> </StyledLink>
         </HeaderContainer>
     )
 }

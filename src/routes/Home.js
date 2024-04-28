@@ -23,7 +23,7 @@ function Home() {
         O projeto <b>personal-stack</b> é uma aplicação web destinada a exibir projetos pessoais e qualificações. 
         A aplicação é desenvolvida inteiramente utilizando <LinkPurple to={WebLinks.get('javascript')}>JavaScript</LinkPurple> com <LinkPurple to={WebLinks.get('react')}>ReactJS</LinkPurple>.
         </TextParagraph>
-        <TextParagraph>Para acessar o currículo e informações profissionais basta clicar em '<LinkPurple to='./Author.js'>author</LinkPurple>' nas opções do menu. A sessão '<LinkPurple to='./Projects.js'>projects</LinkPurple>' exibe diferentes projetos em que atuei.</TextParagraph>
+        <TextParagraph>Para acessar o currículo e informações profissionais basta clicar em '<LinkPurple to='/personal-stack/Author'>author</LinkPurple>' nas opções do menu. A sessão '<LinkPurple to='/personal-stack/Projects'>projects</LinkPurple>' exibe diferentes projetos em que atuei.</TextParagraph>
 
       </ContentBlock>
     </Container>

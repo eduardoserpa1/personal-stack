@@ -1,0 +1,36 @@
+{
+    "data": [
+        {
+            "title":"traveler-genetic-parallel",
+            "description":"Solving the traveler salesman problem with genetic algorithm and parallelism.",
+            "link":"https://github.com/eduardoserpa1/traveler-genetic-parallel"
+        },
+        {
+            "title":"bet-manager",
+            "description":"Página web construída com React.js no frontend e Spring com Postgres no backend para gerenciar sorteios.",
+            "link":"https://github.com/eduardoserpa1/bet-manager"
+        },
+        {
+            "title":"backend-spring-microservices",
+            "description":"Projeto desenvolvido com Spring utilizando arquitetura de micro-serviços",
+            "link":"https://github.com/eduardoserpa1/backend-spring-microservices"
+        },
+        {
+            "title":"react-node-study",
+            "description":"Full-stack application with React and Node.",
+            "link":"https://github.com/eduardoserpa1/react-node-study"
+        },
+        {
+            "title":"node-study",
+            "description":"Some personal studies about development with node.",
+            "link":"https://github.com/eduardoserpa1/node-study"
+        },
+        {
+            "title":"react-study",
+            "description":"Some personal studies about development with react.",
+            "link":"https://github.com/eduardoserpa1/react_study"
+        }
+        
+    ],
+    "time":"23:02:43&27/04/2024"
+}
