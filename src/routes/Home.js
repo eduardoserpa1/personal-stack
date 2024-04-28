@@ -13,9 +13,13 @@ const WebLinks = new Map();
 
 wl.map(obj => WebLinks.set(obj.name, obj.link));
 
+const HomeContainer = styled(Container)`
+  height: 100vh;
+`
+
 function Home() {
   return (
-    <Container>
+    <HomeContainer>
       <ContentBlock>
         <Title>personal-stack project</Title>
         <SubTitle>portifólio pessoal</SubTitle>
@@ -26,7 +30,7 @@ function Home() {
         <TextParagraph>Para acessar o currículo e informações profissionais basta clicar em '<LinkPurple to='/personal-stack/Author'>author</LinkPurple>' nas opções do menu. A sessão '<LinkPurple to='/personal-stack/Projects'>projects</LinkPurple>' exibe diferentes projetos em que atuei.</TextParagraph>
 
       </ContentBlock>
-    </Container>
+    </HomeContainer>
   );
 }
 

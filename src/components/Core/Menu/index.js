@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import styled from 'styled-components'
 import MenuItem from '../MenuItem'
 
@@ -18,11 +18,23 @@ const MenuContainer = styled.div`
 function Menu(){
 
     const Options = ["Home","Author","Projects"]
+    
+    const location = useLocation()
 
+    let currentPageVector = location.pathname.split("/");
+
+    let currentPage = ""
+
+    currentPage = currentPageVector[2]
+
+    if(currentPageVector.length === 2){
+        currentPage = Options[0]
+    }
+     
     return(
         <MenuContainer>
             {
-                Options.map( (item) => (<Link to={`personal-stack/${item}`}><MenuItem>{item.toLowerCase()}</MenuItem></Link>))
+                Options.map( (item) => (<Link to={`personal-stack/${item}`}><MenuItem isSelected={(currentPage === item) ? true : false} >{item.toLowerCase()}</MenuItem></Link>))
             }
         </MenuContainer>
     )

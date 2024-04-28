@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const MenuItem = styled.span`
-    background-color: #f9f9f9;
+    background-color: ${props => props.isSelected ? '#eaeaea' : '#f9f9f9'};
 
     width: 120px;
     height: 100%;

@@ -1,9 +1,14 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "personal-stack",
+  "name": "personal-stack",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "planet_white.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "planet_black.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },

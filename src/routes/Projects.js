@@ -11,13 +11,12 @@ const ProjectsContentBlock = styled(ContentBlock)`
   align-items: center;
   align-content: flex-start;
   flex-wrap: wrap;
+
+  padding-top: 1%;
 `
 
 function Projects() {
   const data = projects_data.data
-  
-
-  console.log(data)
 
   return (
     <Container>

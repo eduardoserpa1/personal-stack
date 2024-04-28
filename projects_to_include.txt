@@ -1,23 +1,23 @@
-paralelizacao do caixeiro viajante genetico
-gerenciador de apostas com react-spring
-backend de microservicos exemplo
-estudo de node com react
-estudo de react
-estudo de node
-algoritmo genetico java - jb
-backtracking nqueens - jb
-dynamic programming - highest sumpath
-Monitor de rede
-Seturo
-T3 CG
-talvez - t2pbn jogo da senha baixo nivel
-talvez - t2pbn jogo quebra cabeca
-landing page ginseng
-muito talvez - automarket
-space invaders
-TOMB DEFENSE
+-paralelizacao do caixeiro viajante genetico
+-gerenciador de apostas com react-spring
+-backend de microservicos exemplo
+-estudo de node com react
+-estudo de react
+-estudo de node
+-algoritmo genetico java - jb
+-backtracking nqueens - jb
+-dynamic programming - highest sumpath
+-Monitor de rede
+-Seturo
+-T3 CG
+-talvez - t2pbn jogo da senha baixo nivel
+-talvez - t2pbn jogo quebra cabeca
+-landing page ginseng
+-muito talvez - automarket
+-space invaders
+-TOMB DEFENSE
 
-https://github.com/cassiano-flores/t2-redes-av
-https://github.com/cassiano-flores/tf-redes
-https://github.com/cassiano-flores/vigenere-cipher
+-https://github.com/cassiano-flores/t2-redes-av
+-https://github.com/cassiano-flores/tf-redes
+-https://github.com/cassiano-flores/vigenere-cipher
 https://github.com/LGFae/Tomb-Defense-CPP

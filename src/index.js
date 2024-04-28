@@ -41,15 +41,14 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'JetBrainsMono';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
   }
 
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
-
 `
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -70,6 +69,8 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>
 );
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

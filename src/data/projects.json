@@ -29,8 +29,77 @@
             "title":"react-study",
             "description":"Some personal studies about development with react.",
             "link":"https://github.com/eduardoserpa1/react_study"
+        },
+        {
+            "title":"genetic-algorithm",
+            "description":"Genetic Algorithm solution developed in Java for Traveling Salesman Problem variation",
+            "link":"https://github.com/eduardoserpa1/genetic-algorithm"
+        },
+        {
+            "title":"nqueens-variation-backtracking",
+            "description":"Backtracking algorithm solution for N-queens problem variation",
+            "link":"https://github.com/eduardoserpa1/nqueens-variation-backtracking"
+        },
+        {
+            "title":"dynamic-highest-sumpath",
+            "description":"Dynamic algorithm to find the highest sum path in nxn matrices starting from the lower left cell to the upper right cell",
+            "link":"https://github.com/eduardoserpa1/dynamic-highest-sumpath"
+        },
+        {
+            "title":"monitor_de_rede",
+            "description":"network packages monitoring tool build with c.",
+            "link":"https://github.com/eduardoserpa1/monitor_de_rede"
+        },
+        {
+            "title":"Seturo",
+            "description":"2d aim-schot game development using unity engine with c#.",
+            "link":"https://github.com/eduardoserpa1/Seturo"
+        },
+        {
+            "title":"t2-pbn-jogodasenha",
+            "description":"[elaborar]",
+            "link":"https://github.com/eduardoserpa1/t2-pbn-jogodasenha"
+        },
+        {
+            "title":"quebracabeca-tp1-pbn",
+            "description":"[elaborar]",
+            "link":"https://github.com/eduardoserpa1/quebracabeca-tp1-pbn"
+        },
+        {
+            "title":"ginsengnetworks",
+            "description":"Landing page responsiva com HTML/CSS.",
+            "link":"https://github.com/eduardoserpa1/ginsengnetworks"
+        },
+        {
+            "title":"automarket",
+            "description":"e-commerce produzido utilizando PHP, HTML, CSS, JavaScript e MySQL.",
+            "link":"https://github.com/eduardoserpa1/automarket"
+        },
+        {
+            "title":"space-invaders",
+            "description":"space invaders inspired game using JavaFX.",
+            "link":"https://github.com/eduardoserpa1/space-invaders"
+        },
+        {
+            "title":"Tomb-Defense",
+            "description":"idle game developed with Godot engine",
+            "link":"https://github.com/eduardoserpa1/Tomb-Defense"
+        },
+        {
+            "title":"vigenere-cipher",
+            "description":"algorithm to break the vigenere cipher from only a cipher text.",
+            "link":"https://github.com/eduardoserpa1/vigenere-cipher"
+        },
+        {
+            "title":"tf-redes",
+            "description":"algorithm to establish router tables built with Java.",
+            "link":"https://github.com/eduardoserpa1/tf-redes"
+        },
+        {
+            "title":"t2-redes-av",
+            "description":"web aplication built with python and dash to monitoring SNMP packages.",
+            "link":"https://github.com/eduardoserpa1/t2-redes-av"
         }
-        
     ],
     "time":"23:02:43&27/04/2024"
 }

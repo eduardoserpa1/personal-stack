@@ -22,10 +22,11 @@ const CardContainer = styled.div`
     border-radius: 4px;
 
     margin: 10px;
-    box-shadow: 0px 0px 1px #dfdfdf; 
+    box-shadow: 0px 0px 1px #d0ccd3; 
 
     &:hover{
         cursor:pointer;
+        background-color: #eae8eb;
     }
 `
 
@@ -75,6 +76,8 @@ const CardFooter = styled.div`
 
     border-top: solid 1px #dfdfdf;
 
+    cursor: default;
+
     img{
         width: 24px;
         height: 24px;
@@ -87,6 +90,12 @@ const CardFooter = styled.div`
     }
     img:nth-child(3){
         margin-right: -10px; 
+        cursor: pointer;
+        padding: 2px;
+    }
+
+    img:nth-child(3):hover{ 
+        background-color: #dddddd;
     }
 `
 
