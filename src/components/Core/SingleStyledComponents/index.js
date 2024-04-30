@@ -54,6 +54,26 @@ const TextBlock = styled.p`
     box-shadow: 0px 0px 10px #cfcfcf
 `
 
+const Code = styled.div`
+    background-color: #e7e7e7;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 20px 10px 20px;
+    text-justify: justify; 
+
+    p{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+`
+
+const FlexImageBlock = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    height: 500px;
+`
 
 export {
         Title,
@@ -63,5 +83,7 @@ export {
         TextParagraph,
         TextBlock,
         SubTitle,
-        LinkPurple
+        LinkPurple,
+        Code,
+        FlexImageBlock
 }

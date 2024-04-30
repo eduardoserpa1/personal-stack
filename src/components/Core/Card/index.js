@@ -37,8 +37,8 @@ const CardHeader = styled.div`
     align-items: center;
     align-content: flex-start;
 
-    width: 90%;
-    height: 20%;
+    width: 100%;
+    height: 23%;
 
     border-bottom: solid 1px #dfdfdf;
     
@@ -47,13 +47,13 @@ const CardHeader = styled.div`
         margin-right: 10px;
         width: 24px;
         height: 24px;
-        margin-left: -10px;
+        margin-left: 10px;
     }
 `
 
 const CardBody = styled.div`
     width: 100%;
-    height: 60%;
+    height: 55%;
     text-align: justify;
 
     p{
@@ -69,8 +69,10 @@ const CardFooter = styled.div`
     align-items: center;
     align-content: center;
 
-    width: 90%;
-    height: 20%;
+    width: 100%;
+    height: 25%;
+
+
 
     font-size: 12px;
 
@@ -82,14 +84,14 @@ const CardFooter = styled.div`
         width: 24px;
         height: 24px;
         color: black;
-        margin-left:10px;
-        margin-right:10px;
+        margin-right: 10px; 
+        margin-left: 10px; 
     }
     img:nth-child(1){
-        margin-left: -10px; 
+        margin-left: 10px; 
     }
     img:nth-child(3){
-        margin-right: -10px; 
+        margin-right: 10px; 
         cursor: pointer;
         padding: 2px;
     }
@@ -97,6 +99,13 @@ const CardFooter = styled.div`
     img:nth-child(3):hover{ 
         background-color: #dddddd;
     }
+`
+
+const LinkNoStyle = styled(Link)`
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 100%;
 `
 
 const Title = styled.span`
@@ -107,7 +116,7 @@ const Title = styled.span`
 function Card(props){
     return(
         <CardContainer>
-            <Link to={"/personal-stack/Projects/" + props.routename}>
+            <LinkNoStyle to={"/personal-stack/Projects/" + props.routename}>
                 <CardHeader>
                     <img src={book_icon}  alt='book_icon' />
                     <Title>{props.title}</Title>
@@ -115,12 +124,13 @@ function Card(props){
                 <CardBody>
                     <p>{props.desc}</p>
                 </CardBody>
+            </LinkNoStyle>
                 <CardFooter>
                     <img src={link_icon} alt='link_icon' />
                     <LinkPurple to={props.link}>{props.link}</LinkPurple>
                     <img src={typeblank_icon} alt='open_page_in_another_tab_icon' />
                 </CardFooter>
-            </Link>
+            
         </CardContainer>
     )
 }
