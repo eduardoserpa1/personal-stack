@@ -101,24 +101,26 @@ const CardFooter = styled.div`
 
 const Title = styled.span`
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
 `
 
 function Card(props){
     return(
         <CardContainer>
-            <CardHeader>
-                <img src={book_icon}  alt='book_icon' />
-                <Title>{props.title}</Title>
-            </CardHeader>
-            <CardBody>
-                <p>{props.desc}</p>
-            </CardBody>
-            <CardFooter>
-                <img src={link_icon} alt='link_icon' />
-                <LinkPurple to={props.link}>{props.link}</LinkPurple>
-                <img src={typeblank_icon} alt='open_page_in_another_tab_icon' />
-            </CardFooter>
+            <Link to={"/personal-stack/Projects/" + props.routename}>
+                <CardHeader>
+                    <img src={book_icon}  alt='book_icon' />
+                    <Title>{props.title}</Title>
+                </CardHeader>
+                <CardBody>
+                    <p>{props.desc}</p>
+                </CardBody>
+                <CardFooter>
+                    <img src={link_icon} alt='link_icon' />
+                    <LinkPurple to={props.link}>{props.link}</LinkPurple>
+                    <img src={typeblank_icon} alt='open_page_in_another_tab_icon' />
+                </CardFooter>
+            </Link>
         </CardContainer>
     )
 }

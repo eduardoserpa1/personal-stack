@@ -23,7 +23,7 @@ function Projects() {
      <ProjectsContentBlock>
      {
       data.length > 0 ? data.map( project => {
-        return <Card title={project.title} desc={project.description} link={project.link}/>
+        return <Card routename={project.routename} title={project.title} desc={project.description} link={project.link}/>
       } ) : <span>erro ao carregar os dados.</span> 
      }
      </ProjectsContentBlock>
