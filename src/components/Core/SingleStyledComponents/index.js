@@ -71,8 +71,8 @@ const FlexImageBlock = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    width: 80%;
-    height: 500px;
+    width: ${props => props.width || '80%'};
+    height: ${props => props.height || '500px'};;
 `
 
 export {

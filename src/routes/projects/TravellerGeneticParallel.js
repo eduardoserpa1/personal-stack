@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Container from '../../components/Core/Container'
 import ContentBlock from '../../components/Core/ContentBlock'
 import {SubTitle, TextParagraph, Title, TitleMediumBackward, Code, FlexImageBlock} from '../../components/Core/SingleStyledComponents'
-import Image from '../../components/Image'
+import Image from '../../components/Core/Image'
 import traveller_genetic_parallel_diagram from '../../visual/images/traveller-genetic-parallel-diagram.png'
 import traveller_genetic_parallel_run1 from '../../visual/images/traveller-genetic-parallel-run1.png'
 import traveller_genetic_parallel_run2 from '../../visual/images/traveller-genetic-parallel-run2.png'
@@ -46,7 +46,7 @@ function TravellerGeneticParallel(){
                 </TextParagraph>
                 <TitleMediumBackward>Exemplo de execução</TitleMediumBackward>
                 <br/>
-                <FlexImageBlock>
+                <FlexImageBlock >
                     <Image src={traveller_genetic_parallel_run1} alt='a image showing a terminal executing the algorithm with 8 threads' width={'40%'}/>
                     <Image src={traveller_genetic_parallel_run2} alt='a image showing a terminal executing the algorithm with 4 threads' width={'40%'}/>
                 </FlexImageBlock>

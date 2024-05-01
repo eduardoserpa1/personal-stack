@@ -1,8 +1,7 @@
 import styled from 'styled-components'
-import ContentBlock from '../components/Core/ContentBlock';
-import { TextParagraph } from '../components/Core/SingleStyledComponents';
-import Container from '../components/Core/Container'
-
+import ContentBlock from '../../components/Core/ContentBlock';
+import { TextParagraph } from '../../components/Core/SingleStyledComponents';
+import Container from '../../components/Core/Container'
 
 function T2RedesAv() {
   return (
