@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/personal-stack/static/js/main.808c7b52.js",
+    "main.js": "/personal-stack/static/js/main.caa78bc2.js",
     "static/js/453.85f86e70.chunk.js": "/personal-stack/static/js/453.85f86e70.chunk.js",
     "static/media/bet-manager-3.png": "/personal-stack/static/media/bet-manager-3.ff08209e457896baa2cd.png",
     "static/media/JetBrainsMono-ExtraBold.ttf": "/personal-stack/static/media/JetBrainsMono-ExtraBold.2ac6c74039dddf412051.ttf",
@@ -11,6 +11,7 @@
     "static/media/bet-manager-4.png": "/personal-stack/static/media/bet-manager-4.e56c7971bc26ce5c2ea6.png",
     "static/media/bet-manager-14.png": "/personal-stack/static/media/bet-manager-14.437644965d168a5f398f.png",
     "static/media/bet-manager-20.png": "/personal-stack/static/media/bet-manager-20.44195959409073962c90.png",
+    "static/media/bet-manager-2.png": "/personal-stack/static/media/bet-manager-2.e989634fa390efc8db1c.png",
     "static/media/bet-manager-15.png": "/personal-stack/static/media/bet-manager-15.e857da4be67d888f4123.png",
     "static/media/bet-manager-17.png": "/personal-stack/static/media/bet-manager-17.e857da4be67d888f4123.png",
     "static/media/bet-manager-5.png": "/personal-stack/static/media/bet-manager-5.1da71ea03a9582ff77b2.png",
@@ -22,7 +23,6 @@
     "static/media/bet-manager-1.png": "/personal-stack/static/media/bet-manager-1.876da8fbccdb30cbefa6.png",
     "static/media/traveller-genetic-parallel-run1.png": "/personal-stack/static/media/traveller-genetic-parallel-run1.4eebc4640bd7bbb7a9aa.png",
     "static/media/bet-manager-test1.png": "/personal-stack/static/media/bet-manager-test1.23983c8a0cce9c589cbf.png",
-    "static/media/bet-manager-2.png": "/personal-stack/static/media/bet-manager-2.6f5cabe3e2513b0124ef.png",
     "static/media/bet-manager-21.png": "/personal-stack/static/media/bet-manager-21.82055d9044cb1a8a06a5.png",
     "static/media/traveller-genetic-parallel-diagram.png": "/personal-stack/static/media/traveller-genetic-parallel-diagram.013ca676583f12f4748d.png",
     "static/media/bet-manager-22.png": "/personal-stack/static/media/bet-manager-22.13e208238c914cb6ae6f.png",
@@ -30,10 +30,10 @@
     "static/media/link.svg": "/personal-stack/static/media/link.cd98c9f8d94460388c4c899825f613c7.svg",
     "index.html": "/personal-stack/index.html",
     "static/media/typeblank.svg": "/personal-stack/static/media/typeblank.1d811ad32469fb28edd36c4817ede375.svg",
-    "main.808c7b52.js.map": "/personal-stack/static/js/main.808c7b52.js.map",
+    "main.caa78bc2.js.map": "/personal-stack/static/js/main.caa78bc2.js.map",
     "453.85f86e70.chunk.js.map": "/personal-stack/static/js/453.85f86e70.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.808c7b52.js"
+    "static/js/main.caa78bc2.js"
   ]
 }
