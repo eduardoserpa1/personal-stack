@@ -56,11 +56,12 @@ function BetManager() {
         <TextParagraph>
           Captura de tela mostrando a cobertura de código e o console após executar os testes unitários com JUNIT.
         </TextParagraph>
-        foto teste 1 e 2
-        <FlexImageBlock height="300px">
-          <Image src={bmt1} alt='' width={'30%'} />
-          <Image src={bmt2} alt='' width={'30%'} />
+        
+        <FlexImageBlock height="300px" width={'60%'}>
+          <Image src={bmt1} alt='' width={'40%'} />
+          <Image src={bmt2} alt='' width={'40%'} />
         </FlexImageBlock>
+        <br/><br/><br/><br/><br/><br/><br/>
         <TitleMediumBackward>Funcionalidades</TitleMediumBackward>
         <TitleShort>Iniciar</TitleShort>
         <TextParagraph>Tela inicial, apenas para redirecionar para o app de forma correta.</TextParagraph>
