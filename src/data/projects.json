@@ -22,7 +22,7 @@
             "title":"react-node-study",
             "description":"Full-stack application with React and Node.",
             "link":"https://github.com/eduardoserpa1/react-node-study",
-            "routename":"ReactStudy"
+            "routename":"ReactNodeStudy"
         },
         {
             "title":"node-study",
@@ -34,7 +34,7 @@
             "title":"react-study",
             "description":"Some personal studies about development with react.",
             "link":"https://github.com/eduardoserpa1/react_study",
-            "routename":"ReactNodeStudy"
+            "routename":"ReactStudy"
         },
         {
             "title":"genetic-algorithm",
