@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.js": "/personal-stack/static/js/main.caa78bc2.js",
+    "main.js": "/personal-stack/static/js/main.08a95957.js",
     "static/js/453.85f86e70.chunk.js": "/personal-stack/static/js/453.85f86e70.chunk.js",
+    "static/media/react-node-study-3.png": "/personal-stack/static/media/react-node-study-3.fbed64da599d1eff5192.png",
+    "static/media/react-node-study-1.png": "/personal-stack/static/media/react-node-study-1.25b55cc9f934dbfa543e.png",
+    "static/media/react-node-study-5.png": "/personal-stack/static/media/react-node-study-5.ac7ec01ec3d323f1949c.png",
+    "static/media/react-node-study-2.png": "/personal-stack/static/media/react-node-study-2.a40a97205d7b4ca542f7.png",
     "static/media/bet-manager-3.png": "/personal-stack/static/media/bet-manager-3.ff08209e457896baa2cd.png",
     "static/media/JetBrainsMono-ExtraBold.ttf": "/personal-stack/static/media/JetBrainsMono-ExtraBold.2ac6c74039dddf412051.ttf",
     "static/media/JetBrainsMono-Bold.ttf": "/personal-stack/static/media/JetBrainsMono-Bold.06bb09be120e8b604064.ttf",
+    "static/media/react-study-1.png": "/personal-stack/static/media/react-study-1.5ac5ef42d922dee009ac.png",
     "static/media/JetBrainsMono-Italic.ttf": "/personal-stack/static/media/JetBrainsMono-Italic.be0a379519de53f8f626.ttf",
     "static/media/JetBrainsMono-Light.ttf": "/personal-stack/static/media/JetBrainsMono-Light.f0e2261a65c471b3a07f.ttf",
     "static/media/JetBrainsMono-Regular.ttf": "/personal-stack/static/media/JetBrainsMono-Regular.93b40005892466035ab0.ttf",
@@ -25,15 +30,16 @@
     "static/media/bet-manager-test1.png": "/personal-stack/static/media/bet-manager-test1.23983c8a0cce9c589cbf.png",
     "static/media/bet-manager-21.png": "/personal-stack/static/media/bet-manager-21.82055d9044cb1a8a06a5.png",
     "static/media/traveller-genetic-parallel-diagram.png": "/personal-stack/static/media/traveller-genetic-parallel-diagram.013ca676583f12f4748d.png",
+    "static/media/backend-spring-microservices-diagram.png": "/personal-stack/static/media/backend-spring-microservices-diagram.8aa90cd7cf72fe2169e2.png",
     "static/media/bet-manager-22.png": "/personal-stack/static/media/bet-manager-22.13e208238c914cb6ae6f.png",
     "static/media/book2.svg": "/personal-stack/static/media/book2.8e1ccf1949cddfffb2d4bef2d6509856.svg",
     "static/media/link.svg": "/personal-stack/static/media/link.cd98c9f8d94460388c4c899825f613c7.svg",
     "index.html": "/personal-stack/index.html",
     "static/media/typeblank.svg": "/personal-stack/static/media/typeblank.1d811ad32469fb28edd36c4817ede375.svg",
-    "main.caa78bc2.js.map": "/personal-stack/static/js/main.caa78bc2.js.map",
+    "main.08a95957.js.map": "/personal-stack/static/js/main.08a95957.js.map",
     "453.85f86e70.chunk.js.map": "/personal-stack/static/js/453.85f86e70.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.caa78bc2.js"
+    "static/js/main.08a95957.js"
   ]
 }
