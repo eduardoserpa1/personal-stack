@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/personal-stack/static/js/main.08a95957.js",
+    "main.js": "/personal-stack/static/js/main.d76ae312.js",
     "static/js/453.85f86e70.chunk.js": "/personal-stack/static/js/453.85f86e70.chunk.js",
     "static/media/react-node-study-3.png": "/personal-stack/static/media/react-node-study-3.fbed64da599d1eff5192.png",
     "static/media/react-node-study-1.png": "/personal-stack/static/media/react-node-study-1.25b55cc9f934dbfa543e.png",
@@ -36,10 +36,11 @@
     "static/media/link.svg": "/personal-stack/static/media/link.cd98c9f8d94460388c4c899825f613c7.svg",
     "index.html": "/personal-stack/index.html",
     "static/media/typeblank.svg": "/personal-stack/static/media/typeblank.1d811ad32469fb28edd36c4817ede375.svg",
-    "main.08a95957.js.map": "/personal-stack/static/js/main.08a95957.js.map",
+    "static/media/download.svg": "/personal-stack/static/media/download.1afd651586fab1892d1512b396e0dc41.svg",
+    "main.d76ae312.js.map": "/personal-stack/static/js/main.d76ae312.js.map",
     "453.85f86e70.chunk.js.map": "/personal-stack/static/js/453.85f86e70.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.08a95957.js"
+    "static/js/main.d76ae312.js"
   ]
 }
