@@ -4,11 +4,28 @@ import UnorderedList from '../components/Core/UnorderedList'
 import ListItem from '../components/Core/ListItem'
 import Container from '../components/Core/Container'
 import { Title, SubTitle, TextBlock, TextParagraph, TitleMedium, TitleMediumBackward, TitleShort, LinkPurple, } from '../components/Core/SingleStyledComponents'
+import DownloadButton from '../components/Core/DownloadButton'
+import LinkButton from '../components/Core/LinkButton'
+
+const MenuLinks = styled.div`
+  
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 480px;
+`
 
 function Author() {
   return (
     <Container>
       <ContentBlock>
+      <br/>
+      <MenuLinks>
+      <DownloadButton path="https://drive.google.com/uc?export=download&id=1eVxMa83EpCpz5xIogjvAabyvq_QWh0ks" text="baixar currículo" icon="download"/>
+      <LinkButton path="https://docs.google.com/document/d/e/2PACX-1vTMmBiCQ8Ile7UvuAyUAWIC9hfWOCx89F2jg6_iidzbX9iMCEJ87cENk8yngajB5Q4h9eQsWkZlW1OW/pub" text="acessar online" icon="link"/>
+      </MenuLinks>
+
         <Title>José Eduardo Rodrigues Serpa</Title>
         <SubTitle>desenvolvedor de software</SubTitle>
         <TitleMediumBackward>Sobre</TitleMediumBackward>

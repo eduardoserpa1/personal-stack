@@ -95,10 +95,6 @@ const CardFooter = styled.div`
         cursor: pointer;
         padding: 2px;
     }
-
-    img:nth-child(3):hover{ 
-        background-color: #dddddd;
-    }
 `
 
 const LinkNoStyle = styled(Link)`
@@ -127,8 +123,8 @@ function Card(props){
             </LinkNoStyle>
                 <CardFooter>
                     <img src={link_icon} alt='link_icon' />
-                    <LinkPurple to={props.link}>{props.link}</LinkPurple>
-                    <img src={typeblank_icon} alt='open_page_in_another_tab_icon' />
+                    <LinkPurple to={props.link} target='_blank'>{props.link}</LinkPurple>
+                    <LinkPurple to={props.link} target='_blank'><img src={typeblank_icon} alt='open_page_in_another_tab_icon' /></LinkPurple>
                 </CardFooter>
             
         </CardContainer>

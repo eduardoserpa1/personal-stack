@@ -16,7 +16,7 @@ function ReactNodeStudy() {
         <Title>react-node-study</Title>
         <SubTitle>integração de backend e frontend para compor uma aplicação web de biblioteca</SubTitle>
         <TextParagraph>
-          Aplicação web desenvolvida utilizando ReactJS para o frontend e Node para o backend com RestAPI. Nela é possivel pesquisr livros, adicionar aos favoritos e acessar a barra de favoritos.
+          Aplicação web desenvolvida utilizando ReactJS para o frontend e Node para o backend com RestAPI. Nela é possivel pesquisar livros, adicionar aos favoritos e acessar a página de favoritos.
         </TextParagraph>
 
         <TitleMediumBackward>Funcionalidades</TitleMediumBackward>
