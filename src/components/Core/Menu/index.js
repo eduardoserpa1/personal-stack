@@ -17,7 +17,7 @@ const MenuContainer = styled.div`
 
 function Menu(){
 
-    const Options = ["Home","Author","Projects"]
+    const Options = ["Author","Projects"]
     
     const location = useLocation()
 
@@ -28,13 +28,13 @@ function Menu(){
     currentPage = currentPageVector[2]
 
     if(currentPageVector.length === 2){
-        currentPage = Options[0]
+        currentPage = "Projects"
     }
-     
+      
     return(
         <MenuContainer>
             {
-                Options.map( (item) => (<Link to={`personal-stack/${item}`}><MenuItem isSelected={(currentPage === item) ? true : false} >{item.toLowerCase()}</MenuItem></Link>))
+                Options.map( (item) => (<Link to={`personal-stack/${item}`}><MenuItem isSelected={((currentPage !== "" && currentPage !== undefined) && currentPage === item) ? true : false} >{item.toLowerCase()}</MenuItem></Link>))
             }
         </MenuContainer>
     )

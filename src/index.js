@@ -80,8 +80,8 @@ root.render(
       <Header />
 
       <Routes>
-      <Route path={"/"} element={<Home />} />
-      <Route path={"personal-stack/"} element={<Home />} />
+      <Route path={"/"} element={<Projects />} />
+      <Route path={"personal-stack/"} element={<Projects />} />
       <Route path={"personal-stack/Home"} element={<Home />} />
       <Route path={"personal-stack/Author"} element={<Author />} />
       <Route path={"personal-stack/Projects"} element={<Projects />} />
