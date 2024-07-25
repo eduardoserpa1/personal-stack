@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.js": "/personal-stack/static/js/main.c98a29f1.js",
-    "static/js/453.85f86e70.chunk.js": "/personal-stack/static/js/453.85f86e70.chunk.js",
+    "main.js": "/personal-stack/static/js/main.6f74cc24.js",
+    "static/js/453.0c41383d.chunk.js": "/personal-stack/static/js/453.0c41383d.chunk.js",
+    "static/media/ginseng-networks-4.png": "/personal-stack/static/media/ginseng-networks-4.2375600a3dcc23018f7c.png",
+    "static/media/ginseng-networks-1.png": "/personal-stack/static/media/ginseng-networks-1.459b440800a5aafa1e33.png",
     "static/media/react-node-study-3.png": "/personal-stack/static/media/react-node-study-3.fbed64da599d1eff5192.png",
     "static/media/react-node-study-1.png": "/personal-stack/static/media/react-node-study-1.25b55cc9f934dbfa543e.png",
     "static/media/react-node-study-5.png": "/personal-stack/static/media/react-node-study-5.ac7ec01ec3d323f1949c.png",
@@ -23,11 +25,22 @@
     "static/media/bet-manager-6.png": "/personal-stack/static/media/bet-manager-6.ad6f721c9e921f1ac0a0.png",
     "static/media/bet-manager-18.png": "/personal-stack/static/media/bet-manager-18.c6c680dd638e2153b94c.png",
     "static/media/bet-manager-test2.png": "/personal-stack/static/media/bet-manager-test2.7cb6c048e495533c55a2.png",
+    "static/media/ginseng-networks-2.png": "/personal-stack/static/media/ginseng-networks-2.376d8cbe9c9bdb2909cb.png",
     "static/media/bet-manager-19.png": "/personal-stack/static/media/bet-manager-19.24eb98219382ff5f47a7.png",
     "static/media/traveller-genetic-parallel-run2.png": "/personal-stack/static/media/traveller-genetic-parallel-run2.8d1a5e8ab2502da4433a.png",
     "static/media/bet-manager-1.png": "/personal-stack/static/media/bet-manager-1.876da8fbccdb30cbefa6.png",
     "static/media/traveller-genetic-parallel-run1.png": "/personal-stack/static/media/traveller-genetic-parallel-run1.4eebc4640bd7bbb7a9aa.png",
+    "static/media/automarket-2.png": "/personal-stack/static/media/automarket-2.7913daeb3223dfee671e.png",
+    "static/media/automarket-6.png": "/personal-stack/static/media/automarket-6.85ad15b32931fb54c52f.png",
+    "static/media/automarket-3.png": "/personal-stack/static/media/automarket-3.7e6f64c6581f8bb64fca.png",
+    "static/media/automarket-4.png": "/personal-stack/static/media/automarket-4.2f023ae798df4bb4dbe3.png",
     "static/media/bet-manager-test1.png": "/personal-stack/static/media/bet-manager-test1.23983c8a0cce9c589cbf.png",
+    "static/media/automarket-1.png": "/personal-stack/static/media/automarket-1.b92573dc210c652743f4.png",
+    "static/media/ginseng-networks-3.png": "/personal-stack/static/media/ginseng-networks-3.2809ea286d481eaedcae.png",
+    "static/media/automarket-5.png": "/personal-stack/static/media/automarket-5.fa611939e18a57b3330c.png",
+    "static/media/ginseng-networks-6.png": "/personal-stack/static/media/ginseng-networks-6.4d9cd6cecb544d0cc6f9.png",
+    "static/media/ginseng-networks-5.png": "/personal-stack/static/media/ginseng-networks-5.3ff5c9262320dc90abbf.png",
+    "static/media/automarket-7.png": "/personal-stack/static/media/automarket-7.b6cffe78b4781f28c8b6.png",
     "static/media/bet-manager-21.png": "/personal-stack/static/media/bet-manager-21.82055d9044cb1a8a06a5.png",
     "static/media/traveller-genetic-parallel-diagram.png": "/personal-stack/static/media/traveller-genetic-parallel-diagram.013ca676583f12f4748d.png",
     "static/media/backend-spring-microservices-diagram.png": "/personal-stack/static/media/backend-spring-microservices-diagram.8aa90cd7cf72fe2169e2.png",
@@ -37,10 +50,10 @@
     "index.html": "/personal-stack/index.html",
     "static/media/typeblank.svg": "/personal-stack/static/media/typeblank.1d811ad32469fb28edd36c4817ede375.svg",
     "static/media/download.svg": "/personal-stack/static/media/download.1afd651586fab1892d1512b396e0dc41.svg",
-    "main.c98a29f1.js.map": "/personal-stack/static/js/main.c98a29f1.js.map",
-    "453.85f86e70.chunk.js.map": "/personal-stack/static/js/453.85f86e70.chunk.js.map"
+    "main.6f74cc24.js.map": "/personal-stack/static/js/main.6f74cc24.js.map",
+    "453.0c41383d.chunk.js.map": "/personal-stack/static/js/453.0c41383d.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.c98a29f1.js"
+    "static/js/main.6f74cc24.js"
   ]
 }
