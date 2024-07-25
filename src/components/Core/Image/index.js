@@ -46,8 +46,8 @@ function Image(props){
         return( <NormalImage src={props.src} alt={props.alt} width={props.width} onClick={change}/> )
     else
         return( 
-            <MaximizedScreen>
-                <MaximizedImage src={props.src} alt={props.alt} width={props.width} onClick={change}/> 
+            <MaximizedScreen onClick={change}>
+                <MaximizedImage src={props.src} alt={props.alt} width={props.maximizedWidth} onClick={change}/> 
                 <MaximizedScreenBox/>
             </MaximizedScreen>
         )

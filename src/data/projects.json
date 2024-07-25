@@ -1,70 +1,84 @@
 {
     "data": [
         {
-            "title":"traveler-genetic-parallel",
-            "description":"Solving the traveler salesman problem with genetic algorithm and parallelism.",
-            "link":"https://github.com/eduardoserpa1/traveler-genetic-parallel",
-            "routename":"TravellerGeneticParallel",
-            "tecnologies" : "Java"
-        },
-        {
-            "title":"bet-manager",
+            "title":"Plataforma de sorteios",
             "description":"Página web construída com React.js no frontend e Spring com Postgres no backend para gerenciar sorteios.",
             "link":"https://github.com/eduardoserpa1/bet-manager",
             "routename":"BetManager",
             "tecnologies" : "Java,Spring,Postgres,React,JavaScript,html5,css3"
         },
         {
-            "title":"backend-spring-microservices",
-            "description":"Projeto desenvolvido com Spring utilizando arquitetura de micro-serviços.",
-            "link":"https://github.com/eduardoserpa1/backend-spring-microservices",
-            "routename":"BackendSpringMicroservices",
-            "tecnologies" : "Java,Spring,Postgres"
-        },
-        {
-            "title":"react-node-study",
+            "title":"Biblioteca virtual",
             "description":"Full-stack application with React and Node.",
             "link":"https://github.com/eduardoserpa1/react-node-study",
             "routename":"ReactNodeStudy",
             "tecnologies" : "React,Node.js,javascript,html5,css3"
         },
         {
-            "title":"node-study",
+            "title":"Api Microserviços- sistema acadêmico",
+            "description":"Projeto desenvolvido com Spring utilizando arquitetura de micro-serviços.",
+            "link":"https://github.com/eduardoserpa1/backend-spring-microservices",
+            "routename":"BackendSpringMicroservices",
+            "tecnologies" : "Java,Spring,Postgres"
+        },
+        {
+            "title":"Landing page - Provedor de Internet",
+            "description":"Landing page responsiva com HTML/CSS.",
+            "link":"https://github.com/eduardoserpa1/ginsengnetworks",
+            "routename":"GinsengNetworks",
+            "tecnologies" : "html5,css3"
+        },
+        {
+            "title":"E-commerce - Supermercado",
+            "description":"e-commerce produzido utilizando PHP, HTML, CSS, JavaScript e MySQL.",
+            "link":"https://github.com/eduardoserpa1/automarket",
+            "routename":"Automarket",
+            "tecnologies" : "php,javascript,html5,css3"
+        },
+        {
+            "title":"Algorítmo genético com paralelismo",
+            "description":"Solving the traveler salesman problem with genetic algorithm and parallelism.",
+            "link":"https://github.com/eduardoserpa1/traveler-genetic-parallel",
+            "routename":"TravellerGeneticParallel",
+            "tecnologies" : "Java"
+        },
+        {
+            "title":"Api - biblioteca",
             "description":"Some personal studies about development with node.",
             "link":"https://github.com/eduardoserpa1/node-study",
             "routename":"NodeStudy",
             "tecnologies" : "Node.js,javascript"
         },
         {
-            "title":"react-study",
+            "title":"Landing Page - biblioteca",
             "description":"Some personal studies about development with react.",
             "link":"https://github.com/eduardoserpa1/react_study",
             "routename":"ReactStudy",
             "tecnologies" : "React,javascript,html5,css3"
         },
         {
-            "title":"genetic-algorithm",
+            "title":"Algoritmo genético",
             "description":"Genetic Algorithm solution developed in Java for Traveling Salesman Problem variation.",
             "link":"https://github.com/eduardoserpa1/genetic-algorithm",
             "routename":"GeneticAlgorithm",
             "tecnologies" : "Java"
         },
         {
-            "title":"nqueens-variation-backtracking",
+            "title":"Problema das N-rainhas - Backtracking",
             "description":"Backtracking algorithm solution for N-queens problem variation.",
             "link":"https://github.com/eduardoserpa1/nqueens-variation-backtracking",
             "routename":"NqueensVariationProblem",
             "tecnologies" : "Java"
         },
         {
-            "title":"dynamic-highest-sumpath",
+            "title":"Algoritmo dinâmico - soma de matrizes",
             "description":"Dynamic algorithm to find the highest sum path in nxn matrices starting from the lower left cell to the upper right cell.",
             "link":"https://github.com/eduardoserpa1/dynamic-highest-sumpath",
             "routename":"DynamicHighestSumpath",
             "tecnologies" : "Java"
         },
         {
-            "title":"monitor_de_rede",
+            "title":"Monitor de pacotes de rede",
             "description":"network packages monitoring tool build with c.",
             "link":"https://github.com/eduardoserpa1/monitor_de_rede",
             "routename":"MonitorDeRede",
@@ -72,69 +86,55 @@
         },
         {
             "title":"Seturo",
-            "description":"2d aim-schot game development using unity engine with c#.",
+            "description":"2d aim-shot game development using unity engine with c#.",
             "link":"https://github.com/eduardoserpa1/Seturo",
             "routename":"Seturo",
             "tecnologies" : "c#,unity"
         },
         {
-            "title":"t2-pbn-jogodasenha",
+            "title":"Jogo da senha - Nokia 5110 (C)",
             "description":"",
             "link":"https://github.com/eduardoserpa1/t2-pbn-jogodasenha",
             "routename":"T2PbnJogoDaSenha",
             "tecnologies" : "c"
         },
         {
-            "title":"quebracabeca-tp1-pbn",
+            "title":"Quebra cabeça digital",
             "description":"",
             "link":"https://github.com/eduardoserpa1/quebracabeca-tp1-pbn",
             "routename":"QuebraCabecaPbn",
             "tecnologies" : "c"
         },
         {
-            "title":"ginsengnetworks",
-            "description":"Landing page responsiva com HTML/CSS.",
-            "link":"https://github.com/eduardoserpa1/ginsengnetworks",
-            "routename":"GinsengNetworks",
-            "tecnologies" : "html5,css3"
-        },
-        {
-            "title":"automarket",
-            "description":"e-commerce produzido utilizando PHP, HTML, CSS, JavaScript e MySQL.",
-            "link":"https://github.com/eduardoserpa1/automarket",
-            "routename":"Automarket",
-            "tecnologies" : "php,javascript,html5,css3"
-        },
-        {
-            "title":"space-invaders",
+            "title":"Space Invaders",
             "description":"space invaders inspired game using JavaFX.",
             "link":"https://github.com/eduardoserpa1/space-invaders",
             "routename":"SpaceInvaders",
             "tecnologies" : "Java,javafx"
         },
         {
-            "title":"Tomb-Defense",
+            "title":"Tomb Defense",
             "description":"idle game developed with Godot engine.",
             "link":"https://github.com/LGFae/Tomb-Defense",
             "routename":"TombDefense",
             "tecnologies" : "godot engine"
         },
         {
-            "title":"vigenere-cipher",
+            "title":"Decifrador Vigenère",
             "description":"algorithm to break the vigenere cipher from only a cipher text.",
             "link":"https://github.com/cassiano-flores/vigenere-cipher",
             "routename":"VigenereCipher",
             "tecnologies" : "java"
         },
         {
-            "title":"tf-redes",
+            "title":"Roteador",
             "description":"algorithm to establish router tables built with Java.",
             "link":"https://github.com/cassiano-flores/tf-redes",
             "routename":"TfRedes",
             "tecnologies" : "java"
         },
         {
-            "title":"t2-redes-av",
+            "title":"Painel de monitoramento SNMP",
             "description":"web aplication built with python and dash to monitoring SNMP packages.",
             "link":"https://github.com/cassiano-flores/t2-redes-av",
             "routename":"T2RedesAv",
