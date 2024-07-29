@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/personal-stack/static/js/main.6f74cc24.js",
+    "main.js": "/personal-stack/static/js/main.2ce47af3.js",
     "static/js/453.0c41383d.chunk.js": "/personal-stack/static/js/453.0c41383d.chunk.js",
     "static/media/ginseng-networks-4.png": "/personal-stack/static/media/ginseng-networks-4.2375600a3dcc23018f7c.png",
     "static/media/ginseng-networks-1.png": "/personal-stack/static/media/ginseng-networks-1.459b440800a5aafa1e33.png",
@@ -50,10 +50,10 @@
     "index.html": "/personal-stack/index.html",
     "static/media/typeblank.svg": "/personal-stack/static/media/typeblank.1d811ad32469fb28edd36c4817ede375.svg",
     "static/media/download.svg": "/personal-stack/static/media/download.1afd651586fab1892d1512b396e0dc41.svg",
-    "main.6f74cc24.js.map": "/personal-stack/static/js/main.6f74cc24.js.map",
+    "main.2ce47af3.js.map": "/personal-stack/static/js/main.2ce47af3.js.map",
     "453.0c41383d.chunk.js.map": "/personal-stack/static/js/453.0c41383d.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.6f74cc24.js"
+    "static/js/main.2ce47af3.js"
   ]
 }
